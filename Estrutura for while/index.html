@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura While</title>
+</head>
+
+<body>
+
+    <h1>Exemplo da estrutura for While</h1>
+    <p>Números de 1 a 10</p>
+
+    <ul id="numbers"></ul>
+    
+    <script>
+
+        var i = 1
+        while ( i <= 10) {
+            var li = document.createElement("li");
+             li.appendChild(document.createTextNode(`Aluno ${i}`)); // aqui colocamos que a li criasse o texto chamado aluno e ainda mais chamar o variavel i 
+             document.getElementById('numbers').appendChild(li); // aqui nos chamamos a id do ul (lista não ordenada) atraves do getElementyById 
+             i++
+
+        } //colocamos em crase ``
+
+        //estrutura for while é repetições (de maneira resumida)
+
+    </script>
+
+</body>
+
+</html>

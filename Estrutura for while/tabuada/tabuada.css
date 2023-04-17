@@ -1,0 +1,37 @@
+ body{
+        background-image: linear-gradient(to right, #ff5100, blue);
+       font-family: Arial, Helvetica, sans-serif;
+       color: aliceblue
+    }
+   header{
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+     
+   }
+    
+   .dark-mode{
+    background: #000000;
+    color: white;
+}
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+ 
+    
+}
+
+.dark-mode header{
+    background-color: #0c0d05;
+    color: white;
+}
+  
+   @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  
+ 
